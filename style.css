@@ -175,3 +175,7 @@ section ul li a:hover {
 #contact ul li a {
     padding: 10px;
 }
+
+#video {
+    text-align: center;
+}
