@@ -6,7 +6,6 @@
 body {
     font-family: 'Noto Sans KR', sans-serif;
     background-color: #f9f9f9;
-    color: var(--darkgreen);
     margin: 0;
     padding: 0;
 }
@@ -54,6 +53,7 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px 20px;
+    background-color: var(--lightgreen);
 }
 
 #about img {
@@ -91,11 +91,13 @@ section h3 {
 
 section h2 {
     margin-top: 50px;
+    margin-bottom: 13px;
     font-size: 24px;
 }
 
 section h3 {
     margin-top: 30px;
+    margin-bottom: 13px;
     font-size: 20px;
 }
 
@@ -104,6 +106,7 @@ section p {
     line-height: 1.5;
     margin-top: 30px;
     text-align: center;
+    border-radius: 15px;
 }
 
 section ul {
@@ -113,6 +116,8 @@ section ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: white;
+    border-radius: 15px;
 }
 
 section ul li {
@@ -134,7 +139,8 @@ section ul li a {
     padding: 20px;
     text-align: center;
     text-decoration: none;
-    color: var(--darkgreen);
+    color: black;
+    background-color: var(--lightgreen);
     font-weight: bold;
     transition: all 0.3s ease-in-out;
 }
@@ -144,8 +150,16 @@ section ul li a:hover {
     color: #fff;
 }
 
-#skills {
-    background-color: var(--lightgreen);
+#about p {
+    background-color: white;
+    font-size: 19px;
+    font-weight: 200;
+    color: black;
+    padding: 15px;
+}
+
+#skills ul {
+    background-color: white;
 }
 
 #contact ul li {
