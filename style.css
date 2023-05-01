@@ -57,9 +57,10 @@ main {
 }
 
 #about img {
-    display: block;
-    margin: auto;
-    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -96,7 +97,7 @@ section h2 {
 }
 
 section h3 {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 13px;
     font-size: 20px;
 }
@@ -150,7 +151,7 @@ section ul li a:hover {
     color: #fff;
 }
 
-#about p {
+.about-me {
     background-color: white;
     font-size: 19px;
     font-weight: 200;
